@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: 255 255 255; --fg: 17 24 39; }
+body { background: rgb(var(--bg)); color: rgb(var(--fg)); }
+.container { @apply max-w-3xl mx-auto px-4; }
+.card { @apply rounded-2xl shadow p-6 bg-white border border-gray-100; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold border border-gray-300 hover:bg-gray-50; }
+.btn-primary { @apply bg-black text-white border-black hover:bg-gray-800; }
+.input { @apply w-full rounded-xl border-gray-300 focus:border-gray-900 focus:ring-gray-900; }
+.label { @apply block text-sm font-medium text-gray-700 mb-1; }
+.grid-times { @apply grid grid-cols-2 sm:grid-cols-4 gap-2; }
+.time-btn { @apply btn; }
+h1 { @apply text-2xl font-semibold; }
+h2 { @apply text-xl font-semibold; }
+small.mono { @apply text-xs text-gray-500 font-mono; }
