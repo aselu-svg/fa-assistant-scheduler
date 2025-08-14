@@ -1,4 +1,4 @@
-import './globals.css'
+import '../styles/globals.css'
 import Link from 'next/link'
 import Providers from './providers'
 
